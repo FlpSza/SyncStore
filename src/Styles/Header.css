@@ -4,6 +4,7 @@
     background-color: #333;
     color: white;
     padding: 1px;
+    margin-bottom: -20px;
   }
   
   .logo {
@@ -44,7 +45,7 @@
   .nav-item2 .nav-subtitle{
     font-size: 14px;
   }
-  
+
   .nav-item2 .nav-title {
     font-size: 10px; /* Tamanho maior para "Minha Conta" */
   }
@@ -73,5 +74,74 @@
     font-size: 14px; /* Tamanho menor para os subtítulos */
     font-weight: bold;
     display: block;
+  }
+  
+  .top-header {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Cor de fundo para o top header */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    text-align: end;
+    background-color: red;
+    padding: 2px 1rem 4px 10px;
+    border-radius: 8px;
+    margin-right: 20px; /* Espaçamento à direita */
+  }
+  
+  .nav-title2 {
+    font-size: 16px; /* Tamanho maior para "Minha Conta" */
+    color: white;
+    margin-bottom: -5px;
+  }
+  
+  .nav-subtitle2 {
+    color: white;
+    font-size: 22px; /* Tamanho menor para os subtítulos */
+    font-weight: bold;
+    display: block;
+  }
+
+  
+
+  .menu-text {
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column; /* Alinha o texto em coluna */
+    margin-left: 10px; /* Espaço entre o ícone e o texto */
+    margin-right: 15px; /* Espaço entre o ícone e o texto */
+  }
+  
+  .menu-container > .menu-icon {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+  }
+  
+  
+  .menu-icon {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Faz a barra de pesquisa crescer */
+    margin: 0 20px; /* Margem nos lados */
+  }
+  
+  .search-input {
+    width: 100%; /* Ocupa todo o espaço disponível */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda da barra de pesquisa */
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  .search-icon {
+    margin-left: -35px; /* Sobrepõe a borda da barra de pesquisa */
+    cursor: pointer; /* Cursor para indicar que é clicável */
+    color: #333; /* Cor do ícone */
   }
   
